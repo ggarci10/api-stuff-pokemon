@@ -1,0 +1,20 @@
+{
+  "name": "pokemon-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "author": "Gabriel Garcia, Brenden McCabe, Guang Wu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "poke-app-api": "file:../pokemon-api",
+    "poke-app-cli": "file:../pokemon-api"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
